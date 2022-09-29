@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Education Page</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html">DevConnector</a>
+      <a href="profiles.html">Developers</a>
+      <a href="signup.html">Sign Up</a>
+      <a href="signin.html">Sign In</a>
+    </nav>
+    <section>
+      <h1 style="color: #3fc8bc">Add Your Education</h1>
+      <p>Add any school, bootcamp that you have attended.</p>
+      <small>*=required data</small>
+    </section>
+
+    <form>
+      <div>
+        <input
+          type="text"
+          placeholder="*School or Bootcamp"
+          name="school"
+          required
+        />
+      </div>
+
+      <div>
+        <input
+          type="text"
+          placeholder="*Degree or Certificate"
+          name="degree"
+          required
+        />
+      </div>
+
+      <div>
+        <input type="text" placeholder="Field of Study" name="field" /> <br />
+        <br />
+      </div>
+
+      <div>
+        <label for="fdate">From Date </label><br />
+        <input type="date" placeholder="From Date" /> <br />
+      </div>
+
+      <div>
+        <p>
+          <input type="checkbox" name="school" />
+          Current School or Bootcamp
+        </p>
+      </div>
+
+      <div>
+        <label for="fto">To Date </label><br />
+        <input type="date" placeholder="End Date" /> <br />
+        <br />
+      </div>
+
+      <div>
+        <textarea
+          name="description"
+          placeholder="Program Description"
+          title="Please fill in with your attended programs."
+        >
+        </textarea>
+        <p></p>
+      </div>
+
+      <input type="submit" style="background-color: #3fc8bc" />
+      <a href="dashboard.html">Go Back</a>
+    </form>
+    <br />
+    <footer>copyright &copy; 2022 KnowlegHut.com</footer>
+  </body>
+</html>
